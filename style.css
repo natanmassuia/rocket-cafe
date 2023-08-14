@@ -1,0 +1,75 @@
+/* Estilos globais */
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+/* Estilos para o título (h1) */
+h1 {
+    margin: 10px 5px;
+    padding-top: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* Estilos para o subtítulo (p) */
+p {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff00;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.4px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8257E5;
+}
+
+/* Estilos para o corpo da página (body) */
+body {
+    background-image: linear-gradient(45deg, black, #221133);
+}
+
+/* Estilos responsivos para telas com largura menor ou igual a 758px */
+@media screen and (max-width: 758px) {
+    .produto-container {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+/* Estilos para itens de navegação no menu */
+.navbar-nav .nav-item {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem;
+}
+
+#title {
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.4px;
+}
+.navbar-nav .nav-item:hover {
+    background-color: #6f00ff2f; /* Altere a cor de fundo do hover conforme necessário */
+}
